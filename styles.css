@@ -1,0 +1,154 @@
+.header-content {
+  background-image: url('image2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; 
+  background-attachment: fixed;
+  color: #f5f5f5;
+  background-image: url('image3.jpg')
+}
+.my-name {
+  font-size: 3em;
+  font-weight: bold;
+  color: #00ffd0;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 4px rgba(11, 206, 255, 0.6);
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+header, footer {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+nav ul li {
+  margin: 0.5em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #f80303;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  border-radius: 100px;
+  transition: background-color 3s;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  color: #f70707;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.download-btn {
+  background-color: #003366;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+form label, form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+form input, form textarea {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #0065fd;
+  color: white;
+  padding: 0.7em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  position: relative;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.card {
+  padding: 50px 20px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  color: rgb(251, 255, 250);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.322); 
+  z-index: 0;
+}
+
+.card * {
+  position: relative;
+  z-index: 2;
+}
+.fade-text {
+  animation: fadeInOut 4s ease-in-out infinite;
+  opacity: 0;
+}
+
+/* Keyframes for fade-in and fade-out */
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
