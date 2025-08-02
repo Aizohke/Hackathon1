@@ -17,21 +17,20 @@ This repository contains the personal portfolio website of Isaac Mathenge, a Mec
  🛠️ Technologies Used
 - Frontend:
   - HTML5
-  - CSS3 (Flexbox, Animations)
+  - CSS3
 - Design:
   - Custom CSS animations
   - Responsive layout
 
- 📂 File Structure
-```
-portfolio/
-├── index.html          # Main website file
-├── styles.css          # All styling
-├── image1.jpg          # Profile picture
-├── image2.jpg          # Section background
-├── image3.jpg          # Main background
-└── Isaac_Mathenge_CV.pdf # Downloadable CV
-```
+  📂 File Structure
+ portfolio/
+├── index.html             # Main website file
+├── styles.css             # All styling
+├── image1.jpg             # Profile picture
+├── image4.jpg             # Header background
+├── image5.jpg             # Body background
+├── image2.jpg             # Section card background
+└── Isaac_Mathenge_CV.pdf  # Downloadable CV
 
 🚀 How to Use
 1. Clone the repository:
@@ -56,11 +55,24 @@ portfolio/
 
  📝 Customization Guide
 To personalize this portfolio:
-1. Replace placeholder images (`image1.jpg`, `image2.jpg`, `image3.jpg`)
+1. Replace placeholder images
 2. Update personal details in HTML sections
 3. Modify colors in the CSS variables
 4. Change animation durations in `@keyframes`
 5. Add/remove portfolio sections as needed
+
+📌 Key Sections
+About Me - Professional introduction
+
+Education - Academic background
+
+Programming - Technical skills
+
+Interests - Professional focus areas
+
+Projects - Portfolio showcase
+
+Contact - Reach out form
 
 🌍 Live Demo
 [Add your live portfolio link here when deployed]
@@ -69,6 +81,7 @@ To personalize this portfolio:
 For questions or feedback:
 - Email: mathengeisaac04@gmail.com
 - LinkedIn: [Isaac Mathenge](https://www.linkedin.com/in/mathenge-isaac-a30741336)
+- GitHub: Aizohke
 
 📜 License
 This project is open-source
