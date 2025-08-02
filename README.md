@@ -75,7 +75,7 @@ Projects - Portfolio showcase
 Contact - Reach out form
 
 🌍 Live Demo
-[Add your live portfolio link here when deployed]
+https://aizohke.github.io/Hackathon1/#
 
 📬 Contact
 For questions or feedback:
