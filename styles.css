@@ -1,8 +1,8 @@
+/* Header Content Styles */
 .header-content {
-  background-image: url('image4.jpg');
-
+  background-image: url('image4.jpg'); /* Background image for header */
 }
-
+/* Body Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -10,8 +10,9 @@ body {
   background-color: #121212; 
   background-attachment: fixed;
   color: #f5f5f5;
-  background-image: url('image5.jpg')
+  background-image: url('image5.jpg') /* Main background image */
 }
+/* Name Heading Styles */
 .my-name {
   font-size: 3em;
   font-weight: bold;
@@ -21,14 +22,14 @@ body {
   letter-spacing: 1px;
   margin: 0;
 }
-
+/* Header and Footer Styles */
 header, footer {
   background-color: black;
   color: white;
   padding: 1em;
   text-align: center;
 }
-
+/* Navigation List Styles */
 nav ul {
   list-style: none;
   padding: 0;
@@ -37,11 +38,11 @@ nav ul {
   flex-wrap: wrap;
 
 }
-
+/* Navigation List Item Styles */
 nav ul li {
   margin: 0.5em;
 }
-
+/* Navigation Link Styles */
 nav ul li a {
   color: white;
   text-decoration: none;
@@ -52,13 +53,13 @@ nav ul li a {
   border-radius: 100px;
   transition: background-color 3s;
 }
-
+/* Main Content Area Styles */
 main {
   width: 80%;
   margin: auto;
   padding: 10px;
 }
-
+/* Section Styles */
 section {
   margin-bottom: 2em;
 }
@@ -66,11 +67,11 @@ section {
 h2 {
   color: #f70707;
 }
-
+/* Unordered List Styles */
 ul {
   padding-left: 20px;
 }
-
+/* Download Button Styles */
 .download-btn {
   background-color: #003366;
   color: white;
@@ -78,19 +79,19 @@ ul {
   text-decoration: none;
   border-radius: 5px;
 }
-
+/* Form Element Styles */
 form label, form input, form textarea {
   display: block;
   width: 100%;
   margin-bottom: 1em;
 }
-
+/* Form Input and Textarea Styles */
 form input, form textarea {
   padding: 0.5em;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
+/* Form Button Styles */
 form button {
   background-color: #0065fd;
   color: white;
@@ -99,7 +100,7 @@ form button {
   border-radius: 5px;
   cursor: pointer;
 }
-
+/* Header Content Layout */
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -107,7 +108,7 @@ form button {
   padding: 2em;
   position: relative;
 }
-
+/* Profile Picture Styles */
 .profile-pic {
   width: 200px;
   height: 200px;
@@ -115,7 +116,7 @@ form button {
   object-fit: cover;
   border: 5px solid white;
 }
-
+/* Card Component Styles */
 .card {
   padding: 50px 20px;
   margin: 10px;
@@ -126,7 +127,7 @@ form button {
   position: relative;
   overflow: hidden;
 }
-
+/* Card Overlay Effect */
 .card::before {
   content: '';
   position: absolute;
@@ -134,16 +135,16 @@ form button {
   background-color: rgba(0, 0, 0, 0.322); 
   z-index: 0;
 }
-
+/* Card Content Positioning */
 .card * {
   position: relative;
   z-index: 2;
 }
+/* Fading Text Animation */
 .fade-text {
   animation: fadeInOut 4s ease-in-out infinite;
   opacity: 0;
 }
-
 /* Keyframes for fade-in and fade-out */
 @keyframes fadeInOut {
   0% { opacity: 0; }
@@ -151,4 +152,5 @@ form button {
   80% { opacity: 1; }
   100% { opacity: 0; }
 }
+
 
